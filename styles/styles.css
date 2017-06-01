@@ -164,6 +164,7 @@ button {
 	cursor: pointer;
 	font-family: inherit;
 	font-size: inherit;
+	font-weight: bold;
 	width: 33.33%;
 	min-width: 12em;
 	outline: none;
@@ -191,7 +192,7 @@ select {
 	box-sizing: border-box;
 	background-color: white;
 	border-radius: 0.2em;
-	border: 0px solid lightgray;
+	border: 1px solid lightgray;
 	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
