@@ -158,7 +158,7 @@ button {
 	background-color: dodgerblue;
 	border-radius: 0.2em;
 	border: none;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0, 0.3);
 	box-sizing: border-box;
 	color: white;
 	cursor: pointer;
@@ -179,7 +179,7 @@ button:hover {
 button:active {
 	margin-top: 0.3em;
 	margin-bottom: 0.1em;
-	box-shadow: 0 0.5px 2px rgba(0,0,0,0.4);
+	box-shadow: 0 0.5px 2px rgba(0,0,0, 0.4);
 }
 
 /* Nice & simple: Input and Dropdown Menu - http://codepen.io/tomsoderlund/pen/GNBbWz */
@@ -188,7 +188,7 @@ textarea,
 select {
 	outline: none;
 	resize: none;
-	box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0 2px 2px rgba(0,0,0, 0.3);
 	box-sizing: border-box;
 	background-color: white;
 	border-radius: 0.2em;
