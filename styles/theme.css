@@ -1,0 +1,22 @@
+/*----- Typography -----*/
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+/*----- Colors -----*/
+
+.color1 {
+	background-color: #026092;
+}
+.color2 {
+	background-color: #ffff91;
+}
+.color3 {
+	background-color: #ff809a;
+}
+.color4 {
+	background-color: #009ef4;
+}
