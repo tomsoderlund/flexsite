@@ -8,8 +8,15 @@ body {
 
 /*----- Colors -----*/
 
-.color1 {
+.white {
+	background-color: white;
+}
+
+.color1a {
 	background-color: #026092;
+}
+.color1b {
+	background-color: #009ef4;
 }
 .color2 {
 	background-color: #ffff91;
@@ -17,6 +24,9 @@ body {
 .color3 {
 	background-color: #ff809a;
 }
-.color4 {
+
+/*----- Buttons & Input -----*/
+
+button {
 	background-color: #009ef4;
 }
