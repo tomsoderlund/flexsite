@@ -1,6 +1,6 @@
 {
   "name": "flexsite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Flexible CSS layout with boxes and cards.",
   "main": "index.js",
   "directories": {
