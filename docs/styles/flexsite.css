@@ -1,0 +1,202 @@
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, main {
+	height: 100%;
+	/* Flexbox: */
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	vertical-align: top;
+}
+
+/*----- Typography -----*/
+
+body {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	margin: 0.2em 0;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+/*----- Frames -----*/
+
+section, .section {
+	width: 100%;
+	min-height: 50vh;
+	padding: 0.5em;
+	background-size: cover;
+	/* Flexbox: */
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	vertical-align: top;
+}
+
+.full {
+}
+
+.half {
+	width: 50%;
+	min-height: 40vh;
+}
+
+.third {
+	width: 33.33%;
+	min-height: 30vh;
+}
+
+.thin {
+	min-height: auto;
+}
+
+/* Landscape layout */
+/*@media screen and (min-aspect-ratio: 1/1) {
+
+	body, main {
+		flex-direction: column;
+	}
+
+	.full {
+		width: 50%;
+		height: 100vh;
+	}
+
+	.half {
+		width: 50%;
+		height: 50vh;
+	}
+
+	.third {
+		width: 25%;
+		height: 33.33vh;
+	}
+
+}*/
+
+.card {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.8);
+	border-radius: 0.2em;
+	box-shadow: 0 0.05em 0.2em rgba(0,0,0, 0.5);
+	padding: 0.5em;
+	overflow: hidden;
+	/* Flexbox: */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section.top, .card.top {
+	justify-content: flex-start;
+}
+
+section img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/*----- Nice & Simple CSS objects -----*/
+
+/* Nice & simple: Table - https://codepen.io/tomsoderlund/pen/mmZrRR */
+table {
+	border-collapse: collapse;
+}
+
+thead tr {
+	background-color: rgba(0,0,0, 0.3);
+}
+
+td, th {
+	/* border: 2px solid rgba(0,0,0, 0.1); */
+	padding: 0.5em;
+}
+
+tbody tr:nth-child(2n+0) {
+	background-color: rgba(0,0,0, 0.1);
+}
+
+tbody tr:nth-child(2n+1) {
+	background-color: rgba(0,0,0, 0.01);
+}
+
+/* Nice & simple: Button - http://codepen.io/tomsoderlund/pen/qqyzqp */
+button {
+	background-color: gray;
+	border-radius: 0.2em;
+	border: none;
+	box-shadow: 0 2px 2px rgba(0,0,0, 0.3);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	min-width: 10em;
+	outline: none;
+	padding: 0.6em;
+	margin: 0.2em;
+	transition: all 0.2s;
+}
+button:hover {
+	opacity: 0.8;
+	transition: box-shadow 0s;
+}
+button:active {
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	box-shadow: 0 0.5px 2px rgba(0,0,0, 0.4);
+}
+
+/* Nice & simple: Input and Dropdown Menu - http://codepen.io/tomsoderlund/pen/GNBbWz */
+input,
+textarea,
+select {
+	outline: none;
+	resize: none;
+	box-shadow: inset 0 2px 2px rgba(0,0,0, 0.3);
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 0.2em;
+	border: 1px solid lightgray;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	min-width: 10em;
+	padding: 0.6em;
+	margin: 0.2em;
+}
+input:hover,
+textarea:hover,
+select:hover {
+	border-color: silver;
+}
+input:focus,
+textarea:focus,
+select:focus {
+	border-color: darkgray;
+}
